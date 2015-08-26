@@ -15,6 +15,7 @@ public class Squares {
 			{
 				coordinates[i] = scanner.nextInt();
 			}
+			scanner.close();
 			Arrays.sort(coordinates);
 			int x = 0;
 			int y = coordinates[n-k];
