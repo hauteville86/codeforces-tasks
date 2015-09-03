@@ -59,7 +59,7 @@ public class LearningLanguages
 		System.out.println(counterOfUniqueRoots - 1);
 	}
 	
-	//Check if the two employees can get with each other and connect them if it's true
+	//Check whether two employees can get with each other and connect them if true
 	public static void connect(int one, int two)
 	{
 		if(!linksBetween.connected(one, two))
