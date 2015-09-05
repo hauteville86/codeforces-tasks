@@ -50,8 +50,7 @@ public class TheWorldIsATheatre
 					divider = divider * i;
 				}
 				boysCombinations = boysCombinations / divider;
-				System.out.println("boysCombinations = " + boysCombinations);
-
+				
 				long girlsCombinations = 1;
 				divider = 1;
 				for(long i = 1; i <= powFactorGirls; i++)
@@ -60,7 +59,6 @@ public class TheWorldIsATheatre
 					divider = divider * i;
 				}
 				girlsCombinations = girlsCombinations / divider;
-				System.out.println("girlsCombinations = " + girlsCombinations);
 				combinations = combinations + boysCombinations * girlsCombinations;
 			}		
 		}
