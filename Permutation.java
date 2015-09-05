@@ -7,8 +7,8 @@ public class Permutation
 	{
 		Scanner scan = new Scanner(System.in);
 		int howManyNumsInSequence = scan.nextInt();
-		boolean numsThatAreAtLeastOnce[] = new boolean[howManyNumsInSequence];
-		for(int i = 0; i < howManyNumsInSequence; i++)
+		boolean numsThatAreAtLeastOnce[] = new boolean[5000];
+		for(int i = 0; i < 5000; i++)
 		{
 			numsThatAreAtLeastOnce[i] = false;
 		}
@@ -19,6 +19,10 @@ public class Permutation
 			if(!numsThatAreAtLeastOnce[num])
 			{
 				numsThatAreAtLeastOnce[num] = true;
+				if(num+1 > howManyNumsInSequence)
+				{
+					counter++;
+				}
 			}
 			else
 			{
