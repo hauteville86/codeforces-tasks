@@ -1,4 +1,25 @@
 // http://codeforces.com/problemset/problem/131/C
+/**
+ * 
+Input
+
+30 30 30
+
+Output
+
+30337661029754022
+
+Answer
+
+118264581548187697
+
+Checker Log
+
+wrong answer expected 118264581548187697, found 30337661029754022
+
+
+ **/
+ 
 import java.util.Scanner;
 
 public class TheWorldIsATheatre
